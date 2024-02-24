@@ -1,0 +1,17 @@
+biopython
+click
+gdown
+matplotlib
+numpy
+pandas
+pyahocorasick
+pyarrow
+pybedtools
+requests
+scikit-learn
+scipy
+seaborn
+sentencepiece==0.1.91
+seqeval
+statsmodels
+tqdm
