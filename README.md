@@ -21,12 +21,12 @@ pip install -r requirements -U
 
 #### From archive
 
-All processed data can be downloaded from this Zenodo link (coming soon).
+All processed data can be downloaded from this Zenodo link:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10701018.svg)](https://doi.org/10.5281/zenodo.10701018)
 
 ```bash
-cd data
-wget <link_coming_soon>
-tar -xzvf processed.tar.gz
+wget https://zenodo.org/records/10701018/files/processed.zip?download=1 -O data/processed.zip
+unzip data/processed.zip -d data/
 ```
 
 #### Process from scratch
